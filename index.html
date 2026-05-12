@@ -257,6 +257,7 @@ dialog#modal::backdrop {
         <option value="Books">Books</option>
         <option value="Shopping">Shopping</option>
         <option value="Entertainment">Entertainment</option>
+        <option value="Other">Other</option>
       </select>
     </div>
     <div class="field">
@@ -272,7 +273,7 @@ dialog#modal::backdrop {
 <script>
 const STORAGE_KEY = "bookmarks_v1";
 const THEME_KEY = "theme_v1";
-const CATEGORIES = ["Learning", "Personal", "Books", "Shopping", "Entertainment"];
+const CATEGORIES = ["Learning", "Personal", "Books", "Shopping", "Entertainment", "Other"];
 
 const SAMPLES = [
   { title: "MDN Web Docs", url: "https://developer.mozilla.org", category: "Learning", notes: "The definitive reference for web standards." },
